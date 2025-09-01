@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Indonesia: Geografi & Strategi</title>
+  <style>
+    :root{
+    --bg:#0f1724; --card:#0b1220; --accent:#06b6d4; --muted:#94a3b8; --glass: rgba(255,255,255,0.03);
+    --radius:14px; --gap:18px; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#071025 0%, #081827 60%);color:#e6eef6;line-height:1.5; text-align: justify;}
+    .wrap{max-width:1100px;margin:36px auto;padding:20px}
+
+
+    header{display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+    .logo{width:60px;height:60px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:grid;place-items:center;font-weight:700;flex-shrink:0}
+    h1{font-size:20px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0;font-size:14px}
+
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:20px;border-radius:var(--radius);box-shadow:0 6px 20px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+
+
+    section + section{margin-top:20px}
+
+
+    /* Slider */
+    .carousel-wrap{position:relative;margin-top:8px}
+    .carousel-viewport{overflow:hidden}
+    .carousel-track{display:flex;will-change:transform}
+
+
+    .point{flex:0 0 100%;display:flex;justify-content:space-between;align-items:stretch;background:var(--card);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);gap:14px}
+
+
+    .point-content{flex:3}
+    .point-content h3{margin:0 0 8px;font-size:16px}
+    .point-content p{margin:0;font-size:14px}
+
+
+    .point-image{flex:2;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.03);border-radius:8px;min-height:200px;overflow:hidden}
+    .point-image img {width:100%;height:100%;object-fit:cover;border-radius:8px;display:block}
+
+
+    /* Controls */
+    .carousel-controls{position:absolute;inset:0;pointer-events:none}
+    .btn{pointer-events:auto;position:absolute;top:50%;transform:translateY(-50%);background:var(--glass);border:1px solid rgba(255,255,255,0.04);backdrop-filter:blur(0.5px);padding:8px;border-radius:10px;cursor:pointer}
+    .btn-left{left:6px}
+    .btn-right{right:6px}
+    .btn svg{width:18px;height:18px;display:block}
+    .btn:active{transform:translateY(-50%) scale(.96)}
+    .btn[disabled]{display:none}
+
+
+    .dots{display:flex;gap:6px;justify-content:center;margin-top:10px;flex-wrap:wrap}
+    .dot{width:8px;height:8px;border-radius:99px;background:rgba(255,255,255,0.08)}
+    .dot.active{background:var(--accent);box-shadow:0 0 6px rgba(6,182,212,0.18)}
+
+
+    /* Responsive */
+    @media(max-width:840px){
+    .point{flex-direction:column}
+    .point-image{min-height:180px}
+    }
+
+
+    @media(max-width:600px){
+    h1{font-size:18px}
+    .point-content h3{font-size:15px}
+    .point-content p{font-size:13px}
+    .point-image{min-height:160px}
+    .wrap{padding:14px}
+    }
+
+
+    /* Print */
+    @media print{body{background:white;color:black} .btn,.dots{display:none} .wrap{box-shadow:none}}
+
+
+    .muted{color:var(--muted)}
+    .section-title{display:flex;align-items:center;gap:12px}
+    .section-title h2{margin:0;font-size:16px}
+    .crit{text-align:justify}
+
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+      border-radius: 16px; /* Rounded corners applied here */
+      overflow: hidden;
+      border: 2px solid #1f393d; /* Optional border color */
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      border: 0;
+    }
+
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">ID</div>
+      <div>
+        <h1>Indonesia could be Asia's Most Strategic Country | Ringkasan & Opini</h1>
+        <p class="lead">(Total kata: 746)</p>
+      </div>
+    </header>
+
+    <section class="card" id="summary">
+      <div class="section-title"><h2>I. Ringkasan Video</h2></div>
+      <div>
+        <!-- NOTE: if the embed refuses to connect, replace with the YouTube /embed/ URL variant -->
+        <div class="video-wrapper">
+          <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/Des7utPzQvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:10px">Video: “Indonesia could be Asia's Most Strategic Country: Here is Why” oleh Kamome.</p>
+      <p style="margin-top:12px">Video ini membahas mengapa Indonesia dianggap sebagai negara yang sangat strategis di kawasan
+Asia dan Indo-Pasifik (area maritim antara laut hindia dengan laut pasifik). Tiga alasan utama yang
+dijelaskan adalah posisi geografis Indonesia yang berada di jalur perdagangan laut global yang vital,
+peran penting Indonesia dalam konflik ekonomis-geopolitik antara Amerika Serikat dan China
+(Republik Rakyat), serta potensi militer Indonesia yang dapat menjadi kekuatan regional di Asia
+tenggara. <br><br>Video ini juga membahas tantangan yang dihadapi Indonesia, seperti kondisi geografis yang
+berupa kepulauan luas, masalah keamanan maritim seperti pembajakan, serta perlunya persatuan
+nasional yang erat. Meskipun memiliki kekuatan besar, Indonesia juga harus mengatasi berbagai
+kendala internal dan eksternal untuk menjadi kekuatan utama di Asia.</p>
+    </section>
+
+    <!-- II: Pendapat (slider) -->
+    <section class="card" id="opinions">
+      <div class="section-title"><h2>II. Pendapat Sendiri</h2></div>
+      <p class="muted" style="margin-top:8px">Klik tombol kiri/kanan untuk pindah kartu.</p>
+
+      <div class="carousel-wrap">
+        <div class="carousel-viewport" id="viewport">
+          <div class="carousel-track" id="track">
+
+            <article class="point" data-index="0">
+              <div class="point-content">
+                <h3>1. Tanah Luas, Sumber Daya Melimpah</h3>
+                <p>
+                  Indonesia itu negara yang besar, ke-14 di dunia berdasarkan luas daratan dan hampir semua
+                  bagiannya memunyai sesuatu yang bernilai. Nikel, batu bara, timah, tembaga, minyak, dan gas
+                  alam. Ditambah lagi sisi tropisnya: beras, buah-buahan, rempah-rempah, kayu, sampai karet.
+                  Letaknya tepat di garis khatulistiwa bikin musimnya cuma dua: hujan dan kemarau. Hasilnya?
+                  Pertanian bisa jalan sepanjang tahun tanpa takut gagal panen karena musim dingin seperti di
+                  negara lain.
+                  <br><br>
+                  Negara-negara yang berada di garis khatulistiwa (seperti Indonesia, Brazil, Republik
+                  Demokratik Kongo, Tanzania) beriklim panas karena kedekatannya dengan sinar matahari yang
+                  menyinari permukaan bumi secara lebih langsung sepanjang tahun.
+                </p>
+              </div>
+              <div class="point-image"><img src="public/images/image.png" alt=""></div>
+            </article>
+
+            <article class="point" data-index="1">
+              <div class="point-content">
+                <h3>2. Ribuan Pulau = Ribuan Alam</h3>
+                <p>
+                  Dengan lebih dari 17.000 pulau, ekosistem di Indonesia berkembang secara terpisah. Itu
+                  berarti tingkat keanekaragaman yang luar biasa, baik dari sisi ilmiah maupun ekonomi. Setiap
+                  pulau punya kekhasannya sendiri, menjadikan Indonesia salah satu negara paling beragam di
+                  dunia.
+                </p>
+              </div>
+              <div class="point-image"><img src="public/images/image copy.png" alt=""></div>
+            </article>
+
+            <article class="point" data-index="2">
+              <div class="point-content">
+                <h3>3. Jalan Pintas Dunia</h3>
+                <p>
+                  Kalau dilihat dari atas, posisi Indonesia kayak “pengatur lalu lintas” perdagangan dunia. Selat
+                  Malaka dan Selat Sunda menghubungkan Asia Timur serta negara di pasifik dengan Asia
+                  Selatan, Timur Tengah, dan Afrika. Tanpa jalur ini, kapal-kapal harus muter jauh lewat
+                  Australia, jauh lebih lama. Siapa yang menguasai selat ini, bisa ikut menentukan arah
+                  perdagangan global, baik secara ekonomi maupun militer.
+                </p>
+              </div>
+              <div class="point-image"><img src="public/images/image copy 2.png" alt=""></div>
+            </article>
+
+            <article class="point" data-index="3">
+              <div class="point-content">
+                <h3>4. Kenapa Belanda Tertarik</h3>
+                <p>
+                  Inilah alasan kenapa Belanda, meski tidak punya kerajaan sebesar Inggris atau Prancis, bisa
+                  kaya besar melalui Hindia Belanda. Perusahaan dagang mereka, VOC (Vereenigde
+                  Oostindische Compagnie), bahkan tercatat sebagai perusahaan paling berharga dalam sejarah
+                  dan itu sebagian besar karena letak geografis Indonesia. Sampai sekarang pun belum ada
+                  perusahaan yang telah membatasi VOC walaupun sudah dibubarkan ratusan tahun lalu.
+                </p>
+              </div>
+              <div class="point-image"><img src="public/images/image copy 3.png" alt=""></div>
+            </article>
+
+            <article class="point" data-index="4">
+              <div class="point-content">
+                <h3>5. Geografi = Perebutan Kekuasaan</h3>
+                <p>
+                  Geografi yang strategis berarti perhatian dunia, dan perhatian itu sering berujung pada
+                  persaingan. Amerika Serikat dan China sama-sama menganggap Indonesia penting dalam
+                  permusuhan mereka, bukan cuma untuk perdagangan tapi juga untuk posisi militer dekat Laut
+                  Cina Selatan, Taiwan, dan Korea (utara dan selatan). Ditambah lagi masalah bajak laut di jalur
+                  laut sibuk, bikin perairan Indonesia jadi area rawan sekaligus strategis.
+                </p>
+              </div>
+              <div class="point-image"><img src="public/images/image copy 7.png" alt=""></div>
+            </article>
+
+            <article class="point" data-index="5">
+              <div class="point-content">
+                <h3>6. Keberagaman: Kekuatan atau Kelemahan?</h3>
+                <p>
+                  Banyaknya pulau berarti juga banyak suku, budaya, dan bahasa. Semboyan nasional Bhinneka
+                  Tunggal Ika menekankan persatuan dalam keberagaman. Tapi di sisi lain, perbedaan ini juga
+                  bisa memicu ketegangan. Kadang keberagaman jadi kekuatan, kadang bisa jadi tantangan.
+                </p>
+              </div>
+              <div class="point-image"><img src="public/images/image copy 5.png" alt=""></div>
+            </article>
+
+            <article class="point" data-index="6">
+              <div class="point-content">
+                <h3>7. Laut dan Udara, Bukan Darat</h3>
+                <p>
+                  Sebagai negara kepulauan, Indonesia tidak bisa cuma mengandalkan kekuatan darat.
+                  Kekuatan utamanya justru harus ada di angkatan laut dan udara. Menjaga jalur laut, melawan
+                  bajak laut, dan mengamankan perbatasan semua bergantung pada kemampuan menguasai
+                  laut dan udara.
+                </p>
+              </div>
+              <div class="point-image"><img src="public/images/image copy 6.png" alt=""></div>
+            </article>
+
+            <article class="point" data-index="7">
+              <div class="point-content">
+                <h3>8. Inti Utama</h3>
+                <p>
+                  Geografi Indonesia adalah anugerah sekaligus tantangan. Kaya sumber daya, strategis, dan
+                  beragam tapi juga menarik perhatian asing dan menimbulkan tekanan internal. Masa depan
+                  Indonesia di panggung dunia akan sangat ditentukan oleh bagaimana negara ini mengelola
+                  “hadiah geografis” tersebut.
+                </p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="btn btn-left" id="prev" aria-label="Sebelumnya">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M15 18l-6-6 6-6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="btn btn-right" id="next" aria-label="Berikutnya">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+
+        <div class="dots" id="dots" aria-hidden="false"></div>
+      </div>
+
+    </section>
+
+    <section class="card" id="critique">
+      <div class="section-title"><h2>III. Kritik ke Buku Paket</h2></div>
+      <p class="crit" style="margin-top:12px">Buku paket (Halaman 39-41) memberikan gambaran yang sangat baik dan jelas tentang keunggulan
+geografis strategis Indonesia, mencakup aspek penting seperti wilayah maritim yang luas, jalur laut
+utama, sumber daya alam, dan peran diplomatik regional. Namun, buku tersebut bisa menekankan
+lebih pada pentingnya geografi itu sendiri, bagaimana geografi sangat memengaruhi keberadaan,
+perkembangan, dan pengaruh sebuah negara, terutama untuk negara kepulauan yang kompleks dan
+luas seperti Indonesia.
+<br><br>
+Selain itu, geografi bukan hanya sumber kekuatan; tetapi juga dapat membawa tantangan dan
+kerentanan. Buku teks kurang menyoroti bagaimana posisi geografis Indonesia membuatnya rentan
+terhadap ancaman eksternal seperti persaingan geopolitik, pembajakan, dan risiko keamanan
+maritim. Kesulitan internal, seperti mengelola keberagaman dan persatuan di ribuan pulau, juga
+berakar dari geografi.
+<br><br>
+Catatan: Kritik ini ditambah karena saya sendiri juga suka geografi dan geo-politik. tertarikan tersebut
+juga bisa menjadi alasan bagian pendapat sangat banyak :D.</p>
+    </section>
+
+    <footer>Najwan Akbar Muntazhar | XII-TKJ</footer>
+  </div>
+
+  <script>
+    (function(){
+      const viewport = document.getElementById('viewport');
+      const track = document.getElementById('track');
+      const prev = document.getElementById('prev');
+      const next = document.getElementById('next');
+      const dotsWrap = document.getElementById('dots');
+      const slides = Array.from(track.querySelectorAll('.point'));
+      let index = 0;
+
+      // Build dots
+      slides.forEach((_, i)=>{
+        const d = document.createElement('button');
+        d.className = 'dot' + (i===0 ? ' active' : '');
+        d.setAttribute('aria-label','Poin ' + (i+1));
+        d.addEventListener('click', ()=> goTo(i));
+        dotsWrap.appendChild(d);
+      });
+
+      function updateUI(smooth=true){
+        const w = viewport.clientWidth;
+        track.style.transition = smooth ? 'transform 400ms ease' : 'none';
+        track.style.transform = `translateX(-${index * w}px)`;
+        // buttons enabled/disabled at ends
+        prev.disabled = (index === 0);
+        next.disabled = (index === slides.length - 1);
+        // dots
+        Array.from(dotsWrap.children).forEach((d, i)=> d.classList.toggle('active', i===index));
+      }
+
+      function goTo(i, smooth=true){
+        if(i < 0) i = 0; // no loop
+        if(i > slides.length - 1) i = slides.length - 1;
+        index = i;
+        updateUI(smooth);
+      }
+
+      prev.addEventListener('click', ()=> goTo(index - 1));
+      next.addEventListener('click', ()=> goTo(index + 1));
+
+      // Keyboard
+      window.addEventListener('keydown', (e)=>{
+        if(e.key === 'ArrowRight') goTo(index + 1);
+        if(e.key === 'ArrowLeft') goTo(index - 1);
+      });
+
+      // Resize: keep the current slide aligned
+      window.addEventListener('resize', ()=> updateUI(false));
+
+      // Optional: basic swipe support
+      let startX = 0, active = false;
+      viewport.addEventListener('touchstart', (e)=>{ active = true; startX = e.touches[0].clientX; });
+      viewport.addEventListener('touchend', (e)=>{
+        if(!active) return; active = false;
+        const dx = e.changedTouches[0].clientX - startX;
+        const threshold = 40; // px
+        if(dx > threshold) goTo(index - 1);
+        else if(dx < -threshold) goTo(index + 1);
+      });
+
+      // Init
+      goTo(0, false);
+    })();
+  </script>
+</body>
+</html>
